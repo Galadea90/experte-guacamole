@@ -1,0 +1,26 @@
+p{font-family: Arial, Helvetica, sans-serif;}
+/*s'appliquera à tous les parapgraphes (balise p)*/
+
+h2{color: rgba(168, 19, 81, 0.623);}
+/* s'appliquera à tous les h2 */
+
+h3{color: rgba(29, 92, 62, 0.616);}
+/* s'appliquera à tous les h3 */
+
+#para1{font-size: larger;}
+/* un sélecteur commençant par # vise un identifiant (unique) */
+
+.surlignage{background-color: rgb(130, 200, 100);}
+/* même principe avec . pour une classe */
+
+.surlignage-couleur-de-texte-bleu{background-color: #008b8b;}
+
+
+.couleur-de-texte-bleu{color: rgb(40, 82, 138);}
+
+
+p .surlignage{text-decoration: line-through;}
+/* on vise toute la balise portant la classe "couleur-de-texte" et se trouvant DANS un parapgraphe l'espace sert strictement à ça dans un sélecteur) */
+
+/* on peu aussi viser des éléments à condition qu'ils soient dans un certain état (par ex, survolé par la souris) */
+.surlignage:hover{background-color: rgb(40, 82, 138);}
